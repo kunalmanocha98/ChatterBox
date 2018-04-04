@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/customlogobg">
+    <ImageView
+        android:id="@+id/welcome"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/welcome"/>
+    <TextView
+        android:id="@+id/txt_dialogmessage"
+        android:layout_below="@id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="CSE 4th YEAR"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        />
+</RelativeLayout>
+</RelativeLayout>

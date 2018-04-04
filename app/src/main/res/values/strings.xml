@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ChatterBox</string>
+    <string name="title_activity_main_chat">MainChat</string>
+</resources>
