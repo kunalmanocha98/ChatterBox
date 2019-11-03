@@ -3,8 +3,9 @@ package com.example.android.chatterbox;
 import android.os.Bundle;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.LinearLayoutManager;
-import androidx.appcompat.widget.RecyclerView;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -60,7 +61,7 @@ public class MainChat extends AppCompatActivity {
 
         root = FirebaseDatabase.getInstance().getReference().child(room_name);
         rv=(RecyclerView)findViewById(R.id.rv);
-        layoutManager=new LinearLayoutManager(this);
+        layoutManager=new LinearLayoutManager(this,RecyclerView.VERTICAL,false);
         rv.setLayoutManager(layoutManager);
 
         btn_send_msg.setOnClickListener(new View.OnClickListener() {

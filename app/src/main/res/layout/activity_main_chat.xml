@@ -11,14 +11,11 @@
         android:background="@drawable/doodlebg"
         android:alpha="0.8"/>
 
-    <androidx.appcompat.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@id/msg_input"
-        android:id="@+id/rv">
-
-    </androidx.appcompat.widget.RecyclerView>
-
+        android:id="@+id/rv"/>
     <ImageButton
         android:id="@+id/btn_send"
         android:layout_width="40dp"
@@ -51,6 +48,4 @@
         android:paddingLeft="20dp"
         android:maxHeight="200dp"
         android:background="@drawable/custommessagebox"/>
-
-
 </RelativeLayout>
