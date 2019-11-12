@@ -85,7 +85,7 @@ public class Options extends AppCompatActivity {
     }
 
     private void room() {
-        if (name.charAt(3) == '4') {
+        if (name.charAt(1) == '4') {
 //            Toast.makeText(this, "Welcome to chat room \n 4th YEAR", Toast.LENGTH_SHORT).show();
             Intent i = new Intent(Options.this, MainChat.class);
             i.putExtra("room_name", fourthyear);
@@ -93,7 +93,7 @@ public class Options extends AppCompatActivity {
             i.putExtra("year",4);
             startActivity(i);
         }
-        if (name.charAt(3) == '5') {
+        if (name.charAt(1) == '5') {
 //            Toast.makeText(this, "Welcome to chat room \n 3rd YEAR", Toast.LENGTH_SHORT).show();
             Intent i = new Intent(Options.this, MainChat.class);
             i.putExtra("room_name", thirdyear);
@@ -101,7 +101,7 @@ public class Options extends AppCompatActivity {
             i.putExtra("year",3);
             startActivity(i);
         }
-        if (name.charAt(3) == '6') {
+        if (name.charAt(1) == '6') {
 //            Toast.makeText(this, "Welcome to chat room \n 2nd YEAR", Toast.LENGTH_SHORT).show();
             Intent i = new Intent(Options.this, MainChat.class);
             i.putExtra("room_name", secondyear);
@@ -109,7 +109,7 @@ public class Options extends AppCompatActivity {
             i.putExtra("year",2);
             startActivity(i);
         }
-        if (name.charAt(3) == '7') {
+        if (name.charAt(1) == '7') {
 //            Toast.makeText(this, "Welcome to chat room \n 1st YEAR", Toast.LENGTH_SHORT).show();
             Intent i = new Intent(Options.this, MainChat.class);
             i.putExtra("room_name", firstyear);

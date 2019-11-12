@@ -83,7 +83,7 @@
         android:onClick="register"
         />
 
-    <ImageView
+    <!--<ImageView
         android:id="@+id/imageView2"
         android:layout_width="100dp"
         android:layout_height="70dp"
@@ -92,7 +92,7 @@
         android:layout_alignParentStart="true"
         android:layout_marginLeft="17dp"
         android:layout_marginStart="17dp"
-        app:srcCompat="@drawable/companylogo" />
+        app:srcCompat="@drawable/companylogo" />-->
 
     <TextView
         android:id="@+id/textView4"
@@ -100,10 +100,9 @@
         android:layout_height="wrap_content"
         android:textColor="@color/grey"
         android:layout_marginBottom="16dp"
-        android:text="\u00A9 2017 ManochaEnterprises.com,Inc."
+        android:text="\u00A9 TanwarEnterprises.com,Inc."
         android:layout_alignParentBottom="true"
-        android:layout_alignLeft="@+id/textView3"
-        android:layout_alignStart="@+id/textView3" />
+        android:layout_centerHorizontal="true"/>
 
     <ProgressBar
         android:id="@+id/progress"

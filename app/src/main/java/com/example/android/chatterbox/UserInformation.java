@@ -1,16 +1,18 @@
 package com.example.android.chatterbox;
 
+import java.io.Serializable;
+
 /**
  * Created by Kunal on 23-Jul-17.
  */
 
-public class UserInformation {
+public class UserInformation implements Serializable {
 
-    private String fname;
-    private String lname;
-    private String reg;
-    private String eml;
-    private String pass;
+    public String fname;
+    public String lname;
+    public String reg;
+    public String eml;
+    public String pass;
 
 
 
